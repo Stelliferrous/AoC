@@ -20,7 +20,7 @@ def process(lines):
         number = re.findall(r'\d', textToNumber(line))
         sumNumbers += int(str(int(number[0])) + str(int(number[-1])))
     return sumNumbers
-with open('calibration-day1.txt', 'r') as inputs:
+with open('day1-input.txt', 'r') as inputs:
     total = process(inputs.readlines())
 print(total)
 
