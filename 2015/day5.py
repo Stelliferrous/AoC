@@ -1,4 +1,3 @@
-
 def numberVowels(line):
 	vowels = "aeiou"
 	vowelCount = 0
@@ -9,7 +8,6 @@ def numberVowels(line):
 		return True
 	else:
 		return False
-
 def isDouble(line):
 	curLetter = str("!")
 	for char in line:
@@ -19,7 +17,6 @@ def isDouble(line):
 		else:
 			curLetter = char
 	return False
-
 def badCombos(line):
 	bad = ["ab", "cd", "pq", "xy"]
 	curLetter = str("!")
@@ -30,10 +27,6 @@ def badCombos(line):
 		else:
 			curLetter = char
 	return True
-
-
-
-
 with open('day5-input.txt', 'r') as file:
 	goodStrings = 0
 	lineCount = 0
