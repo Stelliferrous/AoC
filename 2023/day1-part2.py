@@ -1,5 +1,5 @@
 import re
-def textToNumber(inputT):
+def textToNumber(lines):
     numberMap = {
         "one": "o1e",
         "two": "t2o",
@@ -12,8 +12,8 @@ def textToNumber(inputT):
         "nine": "n9e",
         }
     for word, numb3r in numberMap.items():
-        inputT = inputT.replace(word, str(numb3r))
-    return inputT
+        lines = lines.replace(word, str(numb3r))
+    return lines
 def process(lines):
     sumNumbers = 0
     for line in lines:
