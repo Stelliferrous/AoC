@@ -1,5 +1,4 @@
 
-
 def getGameData():
 	data = []
 	with open('day2-input.txt', 'r') as file:
@@ -47,33 +46,3 @@ for gameEntry in games:
 
 
 print(f"Final total of all whatevers {allTheTotals}")
-
-
-
-				# for count in colorCube['green']:
-				# 	print(f"Result {count} for {gameKey}")
-
-
-
-
-
-# 				colorMax = colorMaxes.get(colorCube)
-# 				if colorCount > colorMax:
-# 					gameSuccess = False
-# 					print(f"High number detected for {colorCube} in {gameKey}: {colorCount}")
-
-# 		if gameSuccess:
-# 			print(f"{gameKey} is considered a win")
-# 			gameSuccesses += 1
-# 			gameIDsTotal += int(gameKey.split(" ")[1])
-# 			print(f"Current total Game IDs added up: ", gameIDsTotal)
-# 		else:
-# 			gameFails += 1
-# 			print(f"{gameKey} is considered a fail")
-
-
-
-# print("Game Successes:", gameSuccesses)
-# print("Game Fails:", gameFails)
-# print("Sum of Game ID Successes:", gameIDsTotal)
-# # print(games)
